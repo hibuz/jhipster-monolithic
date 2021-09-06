@@ -2,6 +2,33 @@
 
 This application was generated using JHipster 7.1.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.1.0](https://www.jhipster.tech/documentation-archive/v7.1.0).
 
+Generate Options
+
+```bash
+? Which *type* of application would you like to create? Monolithic application (recommended for simple projects)
+? What is the base name of your application? jhipster
+? Do you want to make it reactive with Spring WebFlux? No
+? What is your default Java package name? com.hibuz.jhipster
+? Which *type* of authentication would you like to use? JWT authentication (stateless, with a token)
+? Which *type* of database would you like to use? SQL (H2, PostgreSQL, MySQL, MariaDB, Oracle, MSSQL)
+? Which *production* database would you like to use? PostgreSQL
+? Which *development* database would you like to use? H2 with disk-based persistence
+? Which cache do you want to use? (Spring cache abstraction) Ehcache (local cache, for a single node)
+? Do you want to use Hibernate 2nd level cache? Yes
+? Would you like to use Maven or Gradle for building the backend? Gradle
+? Do you want to use the JHipster Registry to configure, monitor and scale your application? No
+? Which other technologies would you like to use? Elasticsearch as search engine, WebSockets using Spring Websocket, Apa
+che Kafka as asynchronous messages broker, API first development using OpenAPI-generator
+? Which *Framework* would you like to use for the client? React
+? Do you want to generate the admin UI? Yes
+? Would you like to use a Bootswatch theme (https://bootswatch.com/)? Default JHipster
+? Would you like to enable internationalization support? Yes
+? Please choose the native language of the application Korean
+? Please choose additional languages to install English
+? Besides JUnit and Jest, which testing frameworks would you like to use? Cypress, Gatling, Cucumber
+? Would you like to install other generators from the JHipster Marketplace? No
+```
+
 ## Development
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
